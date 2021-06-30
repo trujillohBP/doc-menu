@@ -81,7 +81,8 @@ Este modelo se utiliza para registrar toda la información asociada a una Api, p
 | ------ | ------ | ------ |
 | Identificador | string | Identificador único de cada registro, sirve para identificarlo y asociarlo con otros modelos |
 | Descripcion | [Cabecera_icono](components.md#cabecera_icono) | Información general del Api |
-| Detalles | [Seccion_informativa](components.md#seccion_informativa) | Detalles informativos del api |
+| Detalles | [Seccion_informativa](components.md#seccion_informativa) | Listado de secciones informativas en donde se muestran los detalles específcos del api |
+| Detalle_estatico | [NN](components.md#seccion_informativa) | Componente que muestra información adicional |
 | Catalogo | [Catalogo](components.md#catalogo) | Listado de apis relacionadas |
 | Categoria | [Api_categoria](collection-types.md#api_categoria) | Listado de categorias a las que pertenece el Api |
 | Acceso_rapido | [Acceso_rapido_barra](collection-types.md#acceso_rapido_barra) | Componente para navegación rapida desde página de detalle de Api |
